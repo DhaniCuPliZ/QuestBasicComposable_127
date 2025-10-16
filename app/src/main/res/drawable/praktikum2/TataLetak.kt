@@ -1,4 +1,4 @@
-package com.example.praktikum2
+package drawable.praktikum2
 
 
 import androidx.compose.foundation.Image
@@ -92,7 +92,7 @@ fun TataletakRowColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
-    val gambar = painterResource(id = R.drawable.notasibalok2)
+    val gambar = painterResource(id = R.drawable.notasibalok)
     Column {
         Box(
             modifier = modifier
